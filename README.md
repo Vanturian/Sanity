@@ -11,6 +11,7 @@ just isn't enough!
 Here's what some of the features of this plugin are:
 
 ![example1](http://i.imgur.com/LlOKh8d.gif)
+<img src="http://i.imgur.com/LlOKh8d.gif"></img>
 **Dizziness when you start to starve.**
 
 ![example2](http://i.imgur.com/WFxGR1l.gif)
