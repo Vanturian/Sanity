@@ -1,8 +1,7 @@
 name: Sanity
 description: "Spruce up your server with a little bit of this, and a little bit of that!"
 version: 0.0.1
-author: redraskal
-
+authors: [redraskal, Vanturian]
 main: me.redraskal.sanity.Main
 
 commands:
