@@ -4,7 +4,6 @@ import me.redraskal.sanity.Main;
 import me.redraskal.sanity.api.SanityEvent;
 import me.redraskal.sanity.utils.CustomSkull;
 import me.redraskal.sanity.utils.VectorUtils;
-import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.entity.Player;
@@ -40,7 +39,6 @@ public class BirdsEvent extends SanityEvent {
                         armorStand.remove();
                         this.cancel();
                     } else {
-                        Bukkit.broadcastMessage("Step: " + step + "f");
                         armorStand.teleport(VectorUtils.getLocationAroundCircle(player.getLocation().add(0, 1.2, 0), 2, (0.3f * step + offset)));
                         step++;
                     }
