@@ -1,6 +1,10 @@
 package me.redraskal.sanity;
 
 import me.redraskal.sanity.listener.FoodLevel;
+import org.bukkit.Bukkit;
+import org.bukkit.World;
+import org.bukkit.entity.ArmorStand;
+import org.bukkit.entity.Entity;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
@@ -19,7 +23,13 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        // TODO: Nothing here yet!
+        for(World world : Bukkit.getWorlds()) {
+            for(Entity entity : world.getEntities()) {
+                if(entity instanceof ArmorStand && entity.hasMetadata("sanity_mob")) {
+                    entity.remove();
+                }
+            }
+        }
     }
 }
 

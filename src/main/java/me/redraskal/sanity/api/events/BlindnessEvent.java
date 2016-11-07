@@ -22,7 +22,7 @@ public class BlindnessEvent extends SanityEvent {
         player.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, Integer.MAX_VALUE, 1), true);
         new BukkitRunnable() {
             public void run() {
-                if(player.isDead() || player.isOnline()) {
+                if(player.isDead() || !player.isOnline()) {
                     this.cancel();
                 } else {
                     if(player.getFoodLevel() > foodLevel()) {
