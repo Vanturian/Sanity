@@ -1,5 +1,4 @@
-# Sanity
-By redraskal.
+# Sanity | By redraskal
 
 ## About
 
@@ -28,4 +27,4 @@ Don't worry, there's a setup video! Check it out at https://www.youtube.com/watc
 
 **You can always fork this plugin and take a look at it!
 As a reminder, this plugin has a license. You are allowed to use the code for whatever you'd like,
-but never copy it directly and reupload it to any site.**
+but never copy it directly and reupload it to any site without credit or permission.**
