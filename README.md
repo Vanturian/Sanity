@@ -10,14 +10,13 @@ just isn't enough!
 
 Here's what some of the features of this plugin are:
 
-![example1](http://i.imgur.com/LlOKh8d.gif)
-<img src="http://i.imgur.com/LlOKh8d.gif"></img>
+![example1](https://i.imgur.com/LlOKh8d.gif)
 **Dizziness when you start to starve.**
 
-![example2](http://i.imgur.com/WFxGR1l.gif)
+![example2](https://i.imgur.com/WFxGR1l.gif)
 **Birds fly around you when you are starving.**
 
-![example3](http://i.imgur.com/Uo8YOKw.gif)
+![example3](https://i.imgur.com/Uo8YOKw.gif)
 **You start to close your eyes when you are about to die.**
 
 ## Get Started
