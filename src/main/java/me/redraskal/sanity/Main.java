@@ -1,6 +1,7 @@
 package me.redraskal.sanity;
 
 import me.redraskal.sanity.listener.FoodLevel;
+import me.redraskal.sanity.listeners.FoodLevelChange;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
@@ -14,7 +15,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
-        this.getServer().getPluginManager().registerEvents(new FoodLevel(), this);
+        this.getServer().getPluginManager().registerEvents(new FoodLevelChange(), this);
     }
 
     @Override

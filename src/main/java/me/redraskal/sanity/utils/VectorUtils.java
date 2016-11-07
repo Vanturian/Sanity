@@ -1,5 +1,8 @@
 package me.redraskal.sanity.utils;
 
+import org.bukkit.Location;
+import org.bukkit.util.Vector;
+
 public final class VectorUtils {
 
     public static final Vector rotateAroundAxisX(Vector paramVector, double paramDouble) {
