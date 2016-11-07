@@ -1,6 +1,5 @@
 package me.redraskal.sanity;
 
-import me.redraskal.sanity.listener.FoodLevel;
 import me.redraskal.sanity.listeners.FoodLevelChange;
 import org.bukkit.plugin.java.JavaPlugin;
 
