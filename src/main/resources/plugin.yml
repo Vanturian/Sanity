@@ -5,7 +5,5 @@ authors: [redraskal, Vanturian]
 main: me.redraskal.sanity.Main
 
 commands:
-  losesanity:
-    description: "A test command to lose your sanity!"
   sanity:
     description: "Just a bit of information about this project."

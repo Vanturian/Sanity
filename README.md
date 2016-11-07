@@ -23,7 +23,7 @@ Don't worry, there's a setup video! Check it out at https://www.youtube.com/watc
 1. Download the plugin from Spigot @ LINK_HERE.
 2. Drop it into your "plugins" directory.
 3. Reload/Restart your server!
-4. Test it out, there's always /losesanity to set your hunger bars to 3.
+4. Test it out, try __/effect <username> 17 100000 100 true__ to make your hunger go down instantly!
 
 **You can always fork this plugin and take a look at it!
 As a reminder, this plugin has a license. You are allowed to use the code for whatever you'd like,
