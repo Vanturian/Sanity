@@ -1,4 +1,4 @@
-# Sanity | By redraskal
+# Sanity | By redraskal & Vanturian
 
 ## About
 
