@@ -33,6 +33,7 @@ public class BirdsEvent extends SanityEvent {
             float step = 0;
             public void run() {
                 if(player.isDead() || !player.isOnline()) {
+                    armorStand.remove();
                     this.cancel();
                 } else {
                     if(player.getFoodLevel() > foodLevel()) {
