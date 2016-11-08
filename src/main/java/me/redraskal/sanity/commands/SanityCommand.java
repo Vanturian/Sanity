@@ -10,7 +10,7 @@ import org.bukkit.plugin.PluginDescriptionFile;
 /**
  * Created by Redraskal_2 on 11/7/2016.
  */
-public class InformationCommand implements CommandExecutor {
+public class SanityCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
